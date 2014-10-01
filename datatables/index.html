@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<!-- Created by Rob Denton/The Register-Guard on September 27, 2014 -->
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Autumn harvest at Lane County farms | Weekend | The Register-Guard | Eugene, Ore.</title>
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
+  <!-- Responsive DataTables CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css">
+
+  <style>
+
+    /* DataTables array */
+    #datatable{
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    #datatable_filter{
+      float: none;
+    }
+    #datatable_filter label input{
+      width: 100%;
+      margin: 0;
+    }
+
+    #datatable_wrapper td.control:before{
+      left: 0;
+      height: auto;
+      width: 100%;
+      margin: 0;
+      position: relative;
+      color: black;
+      border: none;
+      line-height: auto;
+      box-shadow: none;
+      content: 'Expand';
+      background-color: rgba(0,0,0,0);
+      text-decoration: underline;
+    }
+
+    #datatable_wrapper .child li{
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    table.dataTable.no-footer{
+      border-bottom: 1px solid #dddddd;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <table id="datatable" class="display responsive" width="100%">
+    <thead>
+      <tr>
+        <th class="all">Farm</th>
+        <th class="none">Address</th>
+        <th class="none">Phone</th>
+        <th class="min-tablet-l">U-pick pumpkins</th>
+        <th class="min-tablet-l">Mazes & events</th>
+        <th class="min-tablet-l">Rides</th>
+        <th class="min-tablet-l">Seasonal treats</th>
+        <th class="min-tablet-l">Fall d&eacute;cor</th>
+        <th class="none">Description</th>
+        <th class="all">More info</th>
+      </tr>
+    </thead>
+  </table>
+
+  <!-- jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- DataTables JS -->
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
+  <!-- Responsive DataTables JS -->
+  <script src="//cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#datatable').dataTable( {
+        "ajax": 'harvestarray.json',
+        "paging": false,
+        "info": false,
+        "oLanguage": {
+          "sSearch": ""
+        },
+        "responsive": {
+          "details": {
+            "type": 'column',
+            "target": 9
+          }
+        },
+        "columnDefs": [ {
+          "className": 'control',
+          "orderable": false,
+          "targets": 9
+        }]
+      });
+
+      $('#datatable_filter input').attr("placeholder", "Search... (hayride, maze, cider)").wrap("<div class='bat_wrap pure-form'></div>").addClass("pure-input-rounded");
+
+      // $('.control').toggle(
+      //   function(){
+      //     console.log('expand');
+      //   },
+      //   function(){
+      //     console.log('collapse');
+      //   }
+      // );
+
+      // $( "td" ).toggle(
+      //   function() {
+      //     $( this ).addClass( "selected" );
+      //   }, function() {
+      //     $( this ).removeClass( "selected" );
+      //   }
+      // );
+
+      // $( "td.control" ).click(function() {
+      //   console.log(hello);
+      // });
+
+    });
+  </script>
+
+</body>

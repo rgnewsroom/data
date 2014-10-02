@@ -168,3 +168,9 @@ table.dataTable.no-footer{
 	border-bottom: 1px solid #dddddd;
 }
 ```
+
+## Notes
+
+If you do not have a json file or the DataTable cannot find the json file you'll get this error. Just double check the links are correct.
+
+![error](https://cloud.githubusercontent.com/assets/4853944/4485393/9d7fdbbc-49ca-11e4-80e2-9ca88249f2c9.png)

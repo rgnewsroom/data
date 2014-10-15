@@ -68,7 +68,7 @@ Tool | Description | Maps? | Graphs/Charts? | Difficulty (1-10) | Responsive | $
 * StoryMapJS - Maps that tell stories and are easy to build.
 * JuxtaposeJS - Before/after slider that takes the best of all the others.
 
-### [Mozilla OpenNews Source Code Index](http://source.opennews.org/code/):
+### [Mozilla OpenNews Source Code Index](http://source.opennews.org/code/)
 An index to the open code being written in journalism, fully tagged and searchable.
 
 ### Useful:

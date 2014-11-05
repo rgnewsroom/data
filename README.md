@@ -33,7 +33,7 @@ Then paste that code into the WebHTML DTtag field if you want it at the top, abo
 Tool | Description | Maps? | Graphs/Charts? | Difficulty (1-10) | Responsive | $$$
 ---  | --- | --- | --- | --- | --- | ---
 [Chartist.js](https://github.com/gionkunz/chartist-js) | Simple responsive charts | | :white_check_mark: | :question: | :white_check_mark: | | :white_check_mark: | :question: | :questions: | 
-[cssplot](https://github.com/asciimoo/cssplot/) | CSS charts base library | 
+[cssplot](https://github.com/asciimoo/cssplot/) | CSS charts base library | | :white_check_mark: | :question: | :white_check_mark: | | :white_check_mark: | :question: | :questions: | 
 [C3.js](http://c3js.org) | Unofficially: D3-based chart library that eliminates the need to write D3 code. Officially: D3-based reusable chart library. | | :white_check_mark: | 5 | :white_check_mark: | :white_check_mark:
 [Elm](http://elm-lang.org/) | Elm is great for 2D and 3D games, diagrams, widgets, and websites. | | :white_check_mark: | :question: | :question: | :question:
 [Chart.js](http://www.chartjs.org/) | Simple, clean and engaging charts for designers and developers | | :white_check_mark: | :question: | :white_check_mark: | i

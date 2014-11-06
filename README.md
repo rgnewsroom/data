@@ -28,35 +28,57 @@ Then paste that code into the WebHTML DTtag field if you want it at the top, abo
 
 ## Useful tools and links
 
-… in no particular order:
+### Charts and graphs
 
-Tool | Description | Maps? | Graphs/Charts? | Difficulty (1-10) | Responsive | $$$
----  | --- | --- | --- | --- | --- | ---
-[Chartist.js](https://github.com/gionkunz/chartist-js) | Simple responsive charts | | :white_check_mark: | :question: | :white_check_mark: | | :white_check_mark: | :question: | :questions: | 
-[cssplot](https://github.com/asciimoo/cssplot/) | CSS charts base library | | :white_check_mark: | :question: | :white_check_mark: | | :white_check_mark: | :question: | :questions: | 
-[C3.js](http://c3js.org) | Unofficially: D3-based chart library that eliminates the need to write D3 code. Officially: D3-based reusable chart library. | | :white_check_mark: | 5 | :white_check_mark: | :white_check_mark:
-[Elm](http://elm-lang.org/) | Elm is great for 2D and 3D games, diagrams, widgets, and websites. | | :white_check_mark: | :question: | :question: | :question:
-[Chart.js](http://www.chartjs.org/) | Simple, clean and engaging charts for designers and developers | | :white_check_mark: | :question: | :white_check_mark: | i
-[Dygraphs.js](http://dygraphs.com/) | The Dygraphs.js library allows developers to create interactive charts using the X and Y axis to display powerful diagrams. The more data being parsed, the higher the functionality of the graph. Line graphs only. | | :white_check_mark: | :question: | :question: | :question:
-[D3.js](https://github.com/mbostock/d3) | D3 is capable of creating stunning graphics via dynamically updating the DOM. | :white_check_mark: | :white_check_mark: | 5 |  :white_check_mark:  |
-[Mapbox GL](https://www.mapbox.com/blog/mapbox-gl/) | Mapbox is an open source mapping platform for developers and designers at enterprise scale. | :white_check_mark: | | :question: | :question: | :white_check_mark:
-[Odyssey](http://cartodb.github.io/odyssey.js/) | A simple way for journalists, designers, and creators to weave interactive stories. Note: no streets, only cities | :white_check_mark: | | 2 | :white_check_mark: |
-[StoryMap JS](http://storymap.knightlab.com/) | Super easy way to tell a story using a map. Each location acts as a slide. Note: has streets | :white_check_mark: | | 1 | :white_check_mark: |
-[Epoch](http://fastly.github.io/epoch/) | A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations. | | :white_check_mark: | :question: | :question: |
-[InfoVis a.k.a. JIT](http://philogb.github.io/jit/) | The JavaScript InfoVis Toolkit provides tools for creating Interactive Data Visualizations for the Web. | | :white_check_mark: | :question: | :question: |
-[The Google Visualization API](https://developers.google.com/chart/) | Display live data on your site: Google’s Visualization API can be called with barely any code. | | :white_check_mark: | 2 | :question: | :question:
-[Springy.js](http://getspringy.com/) | Springy.js is a JavaScript library that relies on an algorithm to create force-directed graphs, resulting in nodes reacting in a spring-like manner on the web page. | | :white_check_mark: | :question: | :question: |
-[Polymaps](http://polymaps.org/) | Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers. | :white_check_mark: | | :question: | :question: |
-[dimple](http://dimplejs.org/) | The aim of dimple is to open up the power and flexibility of d3 to analysts. | | :white_check_mark: | :question: | :question: |
-[Sigma](http://sigmajs.org/) | Sigma is a JavaScript library dedicated to graph drawing. It makes easy to publish networks on Web pages, and allows developers to integrate network exploration in rich Web applications. | | :white_check_mark: | :question: | :white_check_mark: |
-[Raphaël](http://raphaeljs.com/) | Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. | :white_check_mark: | :white_check_mark: | :question: | :question: |
-[gRaphaël](http://g.raphaeljs.com/) | gRaphaël’s goal is to help you create stunning charts on your website. | | :white_check_mark: | :question: | :question: |
-[Leaflet](http://leafletjs.com/) | An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps. Requires you to find map tiles. | :white_check_mark: | | :question: | :question: |
-[Ember Charts](http://addepar.github.io/#/ember-charts/overview) | A charting library built with the Ember.js and d3.js frameworks. | | :white_check_mark: | :question: | :question: |
-[Ember Table](http://addepar.github.io/#/ember-table/overview) | Ember table allows you to render very large data sets by only rendering the rows that are being displayed. | | | 2 | :white_check_mark: |
-[matplotlib (Python)](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/?utm_source=Python+Weekly+Newsletter&utm_campaign=3010720f4e-Python_Weekly_Issue_146_July_3_2014&utm_medium=email&utm_term=0_9e26887fc5-3010720f4e-312712941) | Seems to be a simple way to create graphics. | | :white_check_mark: | 6 | :white_check_mark: |
-[plot.ly](https://plot.ly/) | Online GUI but can also be used with Python for interactives. Online GUI is in beta and cannot embed graph. May be able to soon. Has great spreadsheet and graphing interfaces. [Python docs](http://nbviewer.ipython.org/github/plotly/python-user-guide/blob/master/s0_getting-started/s0_getting-started.ipynb) look a lot more extensive than online stuff. | | :white_check_mark: | online: 1 python: :question: | :white_check_mark: |
+Tool | Description | Difficulty (1-10) | Responsive | $$$
+---  | --- | --- | --- | ---
+[Chartist.js](https://github.com/gionkunz/chartist-js) | Simple responsive charts | :question: | :white_check_mark: | :question:
+[cssplot](https://github.com/asciimoo/cssplot/) | CSS charts base library | :question: | :white_check_mark: | :question:
+[C3.js](http://c3js.org) | Unofficially: D3-based chart library that eliminates the need to write D3 code. Officially: D3-based reusable chart library. | 5 | :white_check_mark: | :white_check_mark:
+[Chart.js](http://www.chartjs.org/) | Simple, clean and engaging charts for designers and developers | | :white_check_mark: | :question: | :white_check_mark: 
+[Dygraphs.js](http://dygraphs.com/) | The Dygraphs.js library allows developers to create interactive charts using the X and Y axis to display powerful diagrams. The more data being parsed, the higher the functionality of the graph. Line graphs only. | :question: | :question: | :question:
+[D3.js](https://github.com/mbostock/d3) | D3 is capable of creating stunning graphics via dynamically updating the DOM. | 5 |  :white_check_mark:  |
+[Epoch](http://fastly.github.io/epoch/) | A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations. | :question: | :question: |
+[InfoVis a.k.a. JIT](http://philogb.github.io/jit/) | The JavaScript InfoVis Toolkit provides tools for creating Interactive Data Visualizations for the Web. | :question: | :question: |
+[The Google Visualization API](https://developers.google.com/chart/) | Display live data on your site: Google’s Visualization API can be called with barely any code. | 2 | :question: | :question:
+[Springy.js](http://getspringy.com/) | Springy.js is a JavaScript library that relies on an algorithm to create force-directed graphs, resulting in nodes reacting in a spring-like manner on the web page. | :question: | :question: |
+[dimple](http://dimplejs.org/) | The aim of dimple is to open up the power and flexibility of d3 to analysts. |:question: | :question: |
+[Sigma](http://sigmajs.org/) | Sigma is a JavaScript library dedicated to graph drawing. It makes easy to publish networks on Web pages, and allows developers to integrate network exploration in rich Web applications. | :question: | :white_check_mark: |
+[Raphaël](http://raphaeljs.com/) | Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. | :question: | :question: |
+[gRaphaël](http://g.raphaeljs.com/) | gRaphaël’s goal is to help you create stunning charts on your website. | :question: | :question: |
+[Ember Charts](http://addepar.github.io/#/ember-charts/overview) | A charting library built with the Ember.js and d3.js frameworks. | :question: | :question: |
+[plot.ly](https://plot.ly/) | Online GUI but can also be used with Python for interactives. Online GUI is in beta and cannot embed graph. May be able to soon. Has great spreadsheet and graphing interfaces. [Python docs](http://nbviewer.ipython.org/github/plotly/python-user-guide/blob/master/s0_getting-started/s0_getting-started.ipynb) look a lot more extensive than online stuff. | online: 1 python: :question: | :white_check_mark: |
+[matplotlib (Python)](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/?utm_source=Python+Weekly+Newsletter&utm_campaign=3010720f4e-Python_Weekly_Issue_146_July_3_2014&utm_medium=email&utm_term=0_9e26887fc5-3010720f4e-312712941) | Seems to be a simple way to create graphics. | 6 | :white_check_mark: |
 
+### Maps
+
+Tool | Description | Difficulty (1-10) | Responsive | $$$
+---  | --- | --- | --- | ---
+[Mapbox GL](https://www.mapbox.com/blog/mapbox-gl/) | Mapbox is an open source mapping platform for developers and designers at enterprise scale. | :question: | :question: | :white_check_mark:
+[StoryMap JS](http://storymap.knightlab.com/) | Super easy way to tell a story using a map. Each location acts as a slide. Note: has streets | 1 | :white_check_mark: |
+[Polymaps](http://polymaps.org/) | Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers. | :question: | :question: |
+[Leaflet](http://leafletjs.com/) | An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps. Requires you to find map tiles. | :question: | :question: |
+**GitHub:** [View GeoJSON/TopoJSON Source](https://github.com/blog/1865-view-geojson-topojson-source) | July 23, 2014 | | |
+**GitHub:** [GeoJSON rendering improvements](https://github.com/blog/1541-geojson-rendering-improvements) | June 26, 2013 | | |
+**GitHub:** [There's a map for that](https://github.com/blog/1528-there-s-a-map-for-that) | June 13, 2013 | | |
+
+### Tables
+
+Tool | Description | Difficulty (1-10) | Responsive | $$$
+---  | --- | --- | --- | ---
+[Ember Table](http://addepar.github.io/#/ember-table/overview) | Ember table allows you to render very large data sets by only rendering the rows that are being displayed. | 2 | :white_check_mark: |
+[DataTables](http://datatables.net) | Responsive, tables that take a number of data types | 2 | :white_check_mark: |
+
+### Page design
+
+Tool | Description | Difficulty (1-10) | Responsive | $$$
+---  | --- | --- | --- | ---
+[Odyssey](http://cartodb.github.io/odyssey.js/) | A simple way for journalists, designers, and creators to weave interactive stories. Note: no streets, only cities | 2 | :white_check_mark: |
+[Present your ideas](http://slides.com/) | Slides is a place for creating, presenting and sharing presentations. | | |
+[Snapshot.js](https://github.com/Wildhoney/Snapshot.js) | Node.js app for slicing and dicing paginated chunks of data with easy sorting and filtering. | | |
+[heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) | Dynamic Heatmaps for the Web. | | |
+[Parsehub.com](https://www.parsehub.com/) | Turn dynamic websites into APIs | | |
+ 
 ### Potential data sources:
 
 * [The GDELT Project: A Global Database of Society](http://gdeltproject.org/)
@@ -72,16 +94,11 @@ Tool | Description | Maps? | Graphs/Charts? | Difficulty (1-10) | Responsive | $
 ### [Mozilla OpenNews Source Code Index](http://source.opennews.org/code/)
 An index to the open code being written in journalism, fully tagged and searchable.
 
-### Useful:
+### Useful/Interesting:
 
 * [Present your ideas](http://slides.com/): Slides is a place for creating, presenting and sharing presentations.
 * [Snapshot.js](https://github.com/Wildhoney/Snapshot.js): Node.js app for slicing and dicing paginated chunks of data with easy sorting and filtering.
 * [heatmap.js](http://www.patrick-wied.at/static/heatmapjs/): Dynamic Heatmaps for the Web.
 * [Parsehub.com](https://www.parsehub.com/): Turn dynamic websites into APIs
 * [sheetlabs](https://sheetlabs.com): Turn your spreadsheets into APIs effortlessly.
-
-### Mapping:
-
-* **GitHub:** [View GeoJSON/TopoJSON Source](https://github.com/blog/1865-view-geojson-topojson-source) July 23, 2014
-* **GitHub:** [GeoJSON rendering improvements](https://github.com/blog/1541-geojson-rendering-improvements) June 26, 2013
-* **GitHub:** [There's a map for that](https://github.com/blog/1528-there-s-a-map-for-that) June 13, 20113
+* [Elm](http://elm-lang.org/): Elm is great for 2D and 3D games, diagrams, widgets, and websites. Graphs and charts

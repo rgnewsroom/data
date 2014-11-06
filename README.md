@@ -61,6 +61,7 @@ Tool | Description | Difficulty (1-10) | Responsive | $$$
 **GitHub:** [View GeoJSON/TopoJSON Source](https://github.com/blog/1865-view-geojson-topojson-source) | July 23, 2014 | | |
 **GitHub:** [GeoJSON rendering improvements](https://github.com/blog/1541-geojson-rendering-improvements) | June 26, 2013 | | |
 **GitHub:** [There's a map for that](https://github.com/blog/1528-there-s-a-map-for-that) | June 13, 2013 | | |
+[heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) | Dynamic Heatmaps for the Web. | :question: | :question: |
 
 ### Tables
 
@@ -74,10 +75,9 @@ Tool | Description | Difficulty (1-10) | Responsive | $$$
 Tool | Description | Difficulty (1-10) | Responsive | $$$
 ---  | --- | --- | --- | ---
 [Odyssey](http://cartodb.github.io/odyssey.js/) | A simple way for journalists, designers, and creators to weave interactive stories. Note: no streets, only cities | 2 | :white_check_mark: |
-[Present your ideas](http://slides.com/) | Slides is a place for creating, presenting and sharing presentations. | | |
-[Snapshot.js](https://github.com/Wildhoney/Snapshot.js) | Node.js app for slicing and dicing paginated chunks of data with easy sorting and filtering. | | |
-[heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) | Dynamic Heatmaps for the Web. | | |
-[Parsehub.com](https://www.parsehub.com/) | Turn dynamic websites into APIs | | |
+[Present your ideas](http://slides.com/) | Slides is a place for creating, presenting and sharing presentations. | 3 | :question: | [Freemium](http://slides.com/pricing)
+[Snapshot.js](https://github.com/Wildhoney/Snapshot.js) | Node.js app for slicing and dicing paginated chunks of data with easy sorting and filtering. | :question: | :question: |
+[Parsehub.com](https://www.parsehub.com/) | Turn dynamic websites into APIs | 2 | :question: | [Freemium](https://www.parsehub.com/pricing)
  
 ### Potential data sources:
 

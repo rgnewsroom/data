@@ -62,7 +62,7 @@ Tool | Description | Difficulty (1-10) | Responsive | $$$
 **GitHub:** [GeoJSON rendering improvements](https://github.com/blog/1541-geojson-rendering-improvements) | June 26, 2013 | | |
 **GitHub:** [There's a map for that](https://github.com/blog/1528-there-s-a-map-for-that) | June 13, 2013 | | |
 [heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) | Dynamic Heatmaps for the Web. | :question: | :question: |
-[ColorBrewer 2.0](http://colorbrewer2.org/) | A map color-picker that's got mapping-specfic tools. | | Free |
+[ColorBrewer 2.0](http://colorbrewer2.org/) | A map color-picker that's got mapping-specfic tools. | | | |
 
 ### Tables
 

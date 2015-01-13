@@ -54,6 +54,7 @@ Tool | Description | Difficulty (1-10) | Responsive | $$$
 
 Tool | Description | Difficulty (1-10) | Responsive | $$$
 ---  | --- | --- | --- | ---
+[Topline](https://github.com/ajam/topline) | A jQuery wrapper for ProPublica's Stateline library, adding some no-fuss tooltips, legends and source lines. | :question: | :white_check_mark: | Free 
 [Mapbox GL](https://www.mapbox.com/blog/mapbox-gl/) | Mapbox is an open source mapping platform for developers and designers at enterprise scale. | :question: | :question: | :white_check_mark:
 [StoryMap JS](http://storymap.knightlab.com/) | Super easy way to tell a story using a map. Each location acts as a slide. Note: has streets | 1 | :white_check_mark: |
 [Polymaps](http://polymaps.org/) | Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers. | :question: | :question: |
